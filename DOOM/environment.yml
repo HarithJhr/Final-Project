@@ -23,6 +23,7 @@ dependencies:
       - opencv-python==4.11.0.86
       - pygame==2.6.1
       - stable_baselines3==2.5.0
+      - tensorboard
       - torch==2.5.1
       - typing-extensions==4.12.2
       - vizdoom==1.2.4
