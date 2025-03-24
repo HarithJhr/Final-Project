@@ -20,9 +20,9 @@ from stable_baselines3.common.torch_layers import BaseFeaturesExtractor
 maps = ["basic", "defend_the_center", "defend_the_line"] # List of maps to train on
 MAP = maps[1] # Selected map
 VERSION = 'model_final' # Version of the model
-CHECKPOINT_DIR = f"{VERSION}/checkpoints" # Directory to save model checkpoints
+CHECKPOINT_DIR = f"RL/{VERSION}/checkpoints" # Directory to save model checkpoints
 LOG_DIR = f"RL/logs/{VERSION}" # Directory to save the logs
-REWARDS_DIR = f"{VERSION}/rewards.log" # File to save the reward logs
+REWARDS_DIR = f"RL/{VERSION}/rewards.log" # File to save the reward logs
 TIMESTEPS = 1000000 # Number of timesteps to train the model
 TRAIN = False # False to skip training | True to train models
 
