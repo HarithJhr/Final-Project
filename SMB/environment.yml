@@ -24,4 +24,5 @@ dependencies:
       - opencv_python==4.11.0.86
       - shimmy==2.0.0
       - stable_baselines3==2.4.1
+      - tensorboard
       - torch==1.13.1
